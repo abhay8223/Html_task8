@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style type="text/css">
+        .box {
+			text-align: center;
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+		#text {
+			width: 98%;
+		}
+    </style>
+</head>
+<body>
+    <div class="box">
+		<h2 style="color: blue; text-align: center;">Registration form</h2>
+		<table>
+			<tbody><tr>
+				<td>First Name:</td>
+				<td><input id="text" type="text"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input id="text" type="text"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input id="text" type="email"></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Gender</td>
+				<td style="text-align: left;!important"><input type="radio" id="male" name="fav_language" value="MALE">
+            <label for="html">Male</label></td>
+			</tr>
+			<tr>
+				<td style="text-align: left;!important"><input type="radio" id="female" name="fav_language" value="FEMALE">
+            <label for="female">Female</label></td>
+			</tr>
+			<tr>
+		
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input id="text" type="number"></td>
+			</tr>
+			<tr>
+				<td>Phone Number:</td>
+				<td><input id="text" type="number"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea id="text" form="registration"></textarea></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input id="text" type="text"></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td style="text-align: left;!important"><select id="country" name="country">
+                    <option value="IN">Select your country</option>
+                <option value="IN">India</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AU">Australia</option>
+                <option value="CN">China</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="JP">Japan</option>
+                <option value="NP">Nepal</option>
+                <option value="PK">Pakistan</option>
+                <option value="RU">Russia</option>
+                <option value="SG">Singapore</option>
+           
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States of America</option>
+            </select></td>
+			</tr>
+			<tr>
+				<td>Languages known:</td>
+				<td><input type="checkbox" id="eng" name="fav_language" >
+            <label for="eng">English</label>
+            <input type="checkbox" id="kan" name="fav_language" >
+            <label for="kan">Kannada</label>
+            <input type="checkbox" id="hin" name="fav_language" >
+            <label for="hin">Hindi</label>
+            <input type="checkbox" id="tel" name="fav_language">
+            <label for="tel">Telugu</label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="checkbox" id="declaration">
+				Hereby I declare all the given details are true </td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: right;">Log in to <a href="https://learn.codemithra.com/">Ethnus</a> website</td>
+			</tr>
+		</tbody></table><br><br>
+		<button>Register</button>
+	</div>
+</body>
+</html>
